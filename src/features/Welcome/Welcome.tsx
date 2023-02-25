@@ -36,6 +36,9 @@ const Welcome = (): JSX.Element => {
           <div className={classNames(styles.meals, 'font-jost')}>
             <p className="text-center mt-4">Rice. Pasta. Chicken. Beef. Wine.</p>
           </div>
+          <div className={classNames('text-danger', styles.note_for_otsimo)}>
+            FOR OTSIMO : THIS WEBSITE IS FULLY RESPONSIVE AND THIS TEXT SHOULDN&apos;T BE HERE
+          </div>
         </div>
       </section>
 

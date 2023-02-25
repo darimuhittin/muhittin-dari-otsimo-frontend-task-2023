@@ -41,6 +41,9 @@
   }
 }
 
+.note_for_otsimo {
+  text-align: center;
+}
 @media only screen and (min-width: 768px) {
   .container {
     .banner {
@@ -78,5 +81,11 @@
     .selection_cards {
       text-align: center;
     }
+  }
+
+  .note_for_otsimo {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
   }
 }
