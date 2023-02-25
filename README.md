@@ -1,3 +1,11 @@
+# Implementations :
+
+Find out the highest-quality version of a meal for a given budget
+
+List the cheapest or most expensive versions of the meals
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
