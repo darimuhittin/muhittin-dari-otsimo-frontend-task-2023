@@ -1,0 +1,41 @@
+.container {
+  .img {
+    max-width: 300px;
+  }
+  .price_quality_section {
+    font-size: 48px;
+    margin: 30px 0px;
+    text-align: center;
+  }
+
+  .ingredients {
+    .ingredients__row {
+      margin-bottom: 20px;
+      min-height: 80px;
+      &:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      }
+    }
+    .ingredients__header {
+      font-size: 24px;
+      color: #f0b551;
+    }
+
+    .ingredients__col_names {
+      margin-bottom: 10px;
+    }
+    .ingredients__name {
+      font-size: 20px;
+      color: #f0b551;
+    }
+    .ingredients__amount {
+      font-size: 1.2rem;
+      color: #dd5903;
+    }
+  }
+}
+
+.ingredients__option_total_price {
+  font-size: 1.2rem !important;
+  color: #f0b551;
+}

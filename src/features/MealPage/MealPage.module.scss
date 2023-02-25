@@ -1,0 +1,54 @@
+.container {
+  .backdrop__banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    height: 40vh;
+    background-color: black;
+    opacity: 0.2;
+  }
+  .banner {
+    min-height: 40vh;
+    background: url('/images/menu_page_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+
+    .banner__content {
+      z-index: 3;
+      .company_name {
+        margin-top: 50px;
+        h2 {
+          font-size: 2.4rem !important;
+        }
+      }
+      .meals {
+        font-size: 21px;
+      }
+    }
+  }
+  .menu_section {
+    background: url('/images/section_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    min-height: 40vh;
+    padding: 30px 0;
+    .menu_name {
+      color: #f0b551;
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .selection_cards {
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu_name {
+    color: #f0b551;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+}

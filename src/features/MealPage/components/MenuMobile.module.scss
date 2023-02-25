@@ -1,0 +1,57 @@
+.container {
+  .price_quality_section {
+    font-size: 24px;
+    margin: 30px 0px;
+    text-align: center;
+  }
+  .img {
+    max-width: 420px;
+  }
+  .budget_calculator {
+    margin: 20px 0px;
+    .budget_calculator__header {
+      font-size: 24px;
+      color: #f0b551;
+    }
+    .budget_calculator__input_section {
+      margin: 20px 0px;
+
+      .budget_calculator__input {
+        border-radius: 0;
+        border: 0px;
+        background-color: #000;
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 24px;
+        text-align: right;
+        width: 100%;
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.6);
+        }
+      }
+    }
+
+    .calculate_button {
+      background-color: #dd5903;
+    }
+  }
+  .ingredients {
+    .ingredients__header {
+      font-size: 24px;
+      color: #f0b551;
+    }
+
+    .ingredients__col_names {
+      margin-bottom: 10px;
+    }
+    .ingredients__name {
+      text-align: center;
+      font-size: 20px;
+      color: #f0b551;
+      width: 100%;
+      border-bottom: 1px solid #f0b551;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+}

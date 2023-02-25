@@ -1,0 +1,45 @@
+.container {
+  .backdrop__banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    height: 40vh;
+    background-color: black;
+    opacity: 0.2;
+  }
+  .banner {
+    min-height: 40vh;
+    background: url('/images/meal_list_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+
+    .banner__content {
+      z-index: 3;
+      .company_name {
+        margin-top: 50px;
+        h2 {
+          font-size: 2.4rem !important;
+        }
+      }
+      .meals {
+        font-size: 21px;
+      }
+    }
+  }
+  .content {
+    background: url('/images/section_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+
+    padding: 30px 0;
+  }
+}
+
+.loading {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

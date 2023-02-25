@@ -1,0 +1,47 @@
+.container {
+  background-color: #000;
+  min-height: 40vh;
+  z-index: 1;
+
+  .banner {
+    min-height: 40vh;
+    background: url('/images/not_found_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+
+    .banner__content {
+      z-index: 3;
+      .company_name {
+        margin-top: 50px;
+        h2 {
+          font-size: 4rem !important;
+        }
+      }
+      .meals {
+        font-size: 21px;
+      }
+    }
+  }
+
+  .content {
+    background: url('/images/section_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    min-height: 30vh;
+
+    padding: 30px 0;
+
+    .selection_cards {
+      text-align: center;
+    }
+
+    .h1 {
+      font-size: 4rem;
+    }
+
+    .h2 {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+  }
+}

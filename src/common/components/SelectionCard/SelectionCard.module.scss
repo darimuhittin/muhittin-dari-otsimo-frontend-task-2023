@@ -1,0 +1,35 @@
+.container {
+  margin: 3rem 0;
+  .image_container {
+    display: flex;
+    margin: auto;
+  }
+  .meal_name {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .meal_ingredients {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0.6rem;
+    color: #c6c6c6;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .description {
+    .meal_name {
+      font-size: 3rem;
+    }
+
+    .meal_ingredients {
+      font-size: 2.5rem;
+    }
+  }
+}

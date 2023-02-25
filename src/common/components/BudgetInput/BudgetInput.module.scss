@@ -1,0 +1,29 @@
+.budget_calculator {
+  margin: 20px 0px;
+  min-width: 270px;
+  .budget_calculator__header {
+    font-size: 24px;
+    color: #f0b551;
+  }
+  .budget_calculator__input_section {
+    margin: 20px 0px;
+
+    .budget_calculator__input {
+      border-radius: 0;
+      border: 0px;
+      background-color: #000;
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      font-size: 24px;
+      text-align: right;
+      width: 100%;
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+  }
+
+  .calculate_button {
+    background-color: #dd5903;
+  }
+}
